@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://static.wixstatic.com/media/b15b12_1463beef14164c5bbc42e022cdac5b1c~mv2.png/v1/fill/w_234,h_88,al_c,q_85,usm_0.66_1.00_0.01/Kim%20lab%20logo.webp",
+    "link": "",
+    "text": "Yonghyun Nam"
+  },
+  "text": {
+    "more": "",
+    "intro": "[Discovering comorbid diseases using an inter-disease directional network based on biobank-scale PheWAS data]\nUnderstanding comorbidity is essential for disease prevention, treatment, and prognosis. In particular, insight into which pairs of diseases are likely or unlikely to co-occur may help elucidate the potential relationships between complex diseases. Here, we introduce the use of an inter-disease directional network to discover/prioritize comorbidities. Specifically, we determine disease associations by accounting for the direction of effects of genetic components shared between diseases, and categorize those associations as synergistic or antagonistic. We further develop a comorbidity scoring algorithm to predict whether diseases are more or less likely to co-occur in the presence of a given index disease. This algorithm can handle networks that incorporate relationships with opposite signs. We finally investigate inter-disease associations among 427 phenotypes in UK Biobank PheWAS data and predict the priority of comorbid diseases. Our findings validate that considering the direction of phenotype associations might be helpful in better predicting comorbidity. ",
+    "title": "Inter-disease directional network (signed DDN)"
+  },
+  "legend": {
+    "edgeLabel": "Association",
+    "colorLabel": "Disease Category",
+    "nodeLabel": "Disease (PheCode)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "category",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "phecode"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
